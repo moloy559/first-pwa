@@ -1,3 +1,5 @@
+M.AutoInit();
+
 (function($){
   $(function(){
 
@@ -7,6 +9,6 @@
       var elems = document.querySelectorAll('.modal');
       var instances = M.Modal.init(elems, options);
     });
-    
+
   }); // end of document ready
 })(jQuery); // end of jQuery name space
